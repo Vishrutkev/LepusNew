@@ -67,7 +67,7 @@ const Footer = () => {
               
               <div className="mt-4 p-3 bg-red-900/20 rounded-lg border border-red-800">
                 <div className="text-red-400 font-semibold text-sm">Emergency Support</div>
-                <div className="text-sm">{contactInfo.hours.emergency}</div>
+                <div className="text-sm">{contactInfo.emergency?.phone || "+1 (888) 911-LOAD"}</div>
               </div>
             </div>
           </div>
