@@ -60,8 +60,8 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Clock className="w-5 h-5 text-green-500 mt-0.5" />
                 <div>
-                  <div className="text-sm">{contactInfo.hours.office}</div>
-                  <div className="text-sm text-gray-400 mt-1">{contactInfo.hours.dispatch}</div>
+                  <div className="text-sm">{contactInfo.headquarters?.hours || "Monday - Friday: 7:00 AM - 7:00 PM CST"}</div>
+                  <div className="text-sm text-gray-400 mt-1">{contactInfo.operations?.hours || "24/7 Dispatch & Customer Support"}</div>
                 </div>
               </div>
               
