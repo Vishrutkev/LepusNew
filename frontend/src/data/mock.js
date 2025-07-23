@@ -115,16 +115,16 @@ export const partners = [
 export const services = [
   {
     id: 1,
-    title: "Full Truckload (FTL)",
-    shortDescription: "Dedicated transportation for large shipments with priority handling and direct routing.",
-    fullDescription: "Our Full Truckload services provide dedicated transportation solutions for large shipments requiring priority handling. With direct routing and no intermediate stops, your cargo reaches its destination faster and more securely than traditional shipping methods.",
+    title: "Full Truckload Service",
+    shortDescription: "Ready to put your full truckload (FTL) on the road as soon as possible, short haul or long haul. Our highly trained drivers ensure your freight is delivered fast and safe.",
+    fullDescription: "Transam Carriers are always ready to put your full truckload (FTL) on the road as soon as possible, short haul or long haul. Our highly trained drivers will make sure your freight is delivered fast and safe with our premium team service.",
     icon: "Truck",
     features: [
-      "Direct routing with no stops",
-      "Priority handling and loading",
-      "Real-time GPS tracking",
-      "Expedited delivery options",
-      "Temperature-controlled trailers",
+      "Professional team drivers",
+      "Short haul and long haul capabilities",
+      "Fast and safe delivery",
+      "Real-time tracking",
+      "Competitive pricing",
       "Dedicated customer support"
     ],
     benefits: [
@@ -132,124 +132,124 @@ export const services = [
       "Enhanced cargo security",
       "Reduced handling damage",
       "Flexible scheduling",
-      "Cost-effective for large shipments"
+      "Cost-effective solutions"
     ],
     industries: ["Manufacturing", "Retail", "Automotive", "Food & Beverage"]
   },
   {
     id: 2,
-    title: "Less Than Truckload (LTL)",
-    shortDescription: "Cost-effective shipping for smaller freight with consolidated routing and flexible scheduling.",
-    fullDescription: "Our LTL services offer cost-effective solutions for smaller freight shipments. Through our advanced consolidation network, we optimize routes and reduce costs while maintaining reliable delivery schedules.",
+    title: "LTL Service",
+    shortDescription: "If you have less than a truckload (LTL) of freight – just one skid or a dozen – you can always trust Transam Carriers with delivering it quickly and reliably at a price that is just right.",
+    fullDescription: "Our LTL services provide cost-effective solutions for smaller freight shipments. Whether it's one skid or a dozen, we deliver quickly and reliably at competitive prices.",
     icon: "Package",
     features: [
-      "Consolidated routing optimization",
-      "Flexible scheduling options",
-      "Multi-stop delivery capability",
-      "Competitive pricing structure",
-      "Advanced tracking system",
-      "Freight classification expertise"
+      "One skid to multiple pallets",
+      "Competitive pricing",
+      "Quick and reliable delivery",
+      "Flexible scheduling",
+      "Professional handling",
+      "Real-time tracking"
     ],
     benefits: [
-      "Reduced shipping costs",
-      "Environmentally friendly",
-      "Flexible shipment sizes",
+      "Cost-effective shipping",
       "Reliable delivery windows",
-      "Professional handling"
+      "Professional handling",
+      "Flexible shipment sizes",
+      "Competitive rates"
     ],
-    industries: ["E-commerce", "Small Business", "Healthcare", "Technology"]
+    industries: ["E-commerce", "Small Business", "Manufacturing", "Retail"]
   },
   {
     id: 3,
-    title: "Cross-Border Solutions",
-    shortDescription: "Seamless Canada-USA freight movement with customs expertise and border compliance.",
-    fullDescription: "Our cross-border expertise ensures smooth freight movement between Canada and the USA. We handle all customs documentation, border compliance, and regulatory requirements to keep your shipments moving efficiently across international boundaries.",
+    title: "Intermodal Service",
+    shortDescription: "Take advantage of multiple modes of transportation. Transam has a rail offering from Ontario to Western Canada for truckload shipments that are deferred in nature.",
+    fullDescription: "For cost-effective transportation, our intermodal services combine rail and truck transport from Ontario to Western Canada, perfect for deferred truckload shipments.",
     icon: "Globe",
     features: [
-      "Customs documentation management",
-      "Border compliance expertise",
-      "FAST-approved drivers",
-      "C-TPAT certified processes",
-      "Bonded carrier services",
-      "Duty and tax optimization"
+      "Rail and truck combination",
+      "Ontario to Western Canada",
+      "Cost-effective solution",
+      "Deferred shipments",
+      "Environmental benefits",
+      "Reliable scheduling"
     ],
     benefits: [
-      "Faster border crossings",
-      "Reduced compliance risks",
-      "Expert customs handling",
-      "Cost optimization",
-      "Regulatory compliance"
+      "Reduced transportation costs",
+      "Environmentally friendly",
+      "Reliable scheduling",
+      "Large capacity handling",
+      "Long-distance efficiency"
     ],
-    industries: ["Manufacturing", "Automotive", "Food & Beverage", "Retail"]
+    industries: ["Manufacturing", "Retail", "Construction", "Agriculture"]
   },
   {
     id: 4,
-    title: "Supply Chain Solutions",
-    shortDescription: "End-to-end logistics management with warehousing, distribution, and inventory optimization.",
-    fullDescription: "Comprehensive supply chain management services that go beyond transportation. We provide warehousing, distribution, inventory management, and logistics consulting to optimize your entire supply chain.",
-    icon: "Warehouse",
+    title: "Team Service",
+    shortDescription: "With our experienced and well-matched team drivers, expertly trained in the latest safety standards, your freight moves nonstop, arriving faster, safer, and exactly where it needs to be.",
+    fullDescription: "Our Team Service features experienced and well-matched team drivers, expertly trained in the latest safety standards, ensuring your freight moves nonstop for faster, safer deliveries.",
+    icon: "Users",
     features: [
-      "Warehousing and distribution",
-      "Inventory management systems",
-      "Order fulfillment services",
-      "Supply chain optimization",
-      "Technology integration",
-      "Performance analytics"
+      "Experienced team drivers",
+      "Latest safety training",
+      "Nonstop freight movement",
+      "Faster delivery times",
+      "Enhanced safety measures",
+      "Professional coordination"
     ],
     benefits: [
-      "Reduced operational costs",
-      "Improved efficiency",
-      "Scalable solutions",
-      "Better inventory control",
-      "Enhanced visibility"
-    ],
-    industries: ["E-commerce", "Retail", "Manufacturing", "Healthcare"]
-  },
-  {
-    id: 5,
-    title: "Expedited Services",
-    shortDescription: "Time-critical shipping solutions for urgent deliveries and emergency logistics needs.",
-    fullDescription: "When time is critical, our expedited services ensure your urgent shipments reach their destination quickly and safely. Our dedicated team and priority routing guarantee faster delivery times for time-sensitive cargo.",
-    icon: "Zap",
-    features: [
-      "Same-day and overnight delivery",
-      "Priority routing and handling",
-      "Dedicated dispatch team",
-      "Real-time status updates",
-      "Emergency logistics support",
-      "Direct delivery options"
-    ],
-    benefits: [
-      "Fastest transit times",
-      "Critical shipment priority",
-      "Reduced downtime costs",
-      "Emergency response capability",
-      "Flexible timing options"
+      "Faster transit times",
+      "Continuous movement",
+      "Enhanced safety",
+      "Professional service",
+      "Reliable delivery"
     ],
     industries: ["Healthcare", "Manufacturing", "Automotive", "Technology"]
   },
   {
-    id: 6,
-    title: "Temperature Controlled",
-    shortDescription: "Specialized refrigerated transportation for temperature-sensitive goods and perishables.",
-    fullDescription: "Our temperature-controlled logistics ensure the integrity of your temperature-sensitive products. From frozen foods to pharmaceuticals, we maintain precise temperature control throughout the entire transportation process.",
-    icon: "Thermometer",
+    id: 5,
+    title: "Cross-Docking",
+    shortDescription: "With Transam's strategically located 70 doors cross-dock facility in Concord Ontario, we provide additional value-added services including cross-docking of freight.",
+    fullDescription: "Our 70-door cross-dock facility in Concord Ontario provides comprehensive cross-docking services for efficient freight transfer and distribution.",
+    icon: "Warehouse",
     features: [
-      "Precise temperature monitoring",
-      "Multi-temperature trailers",
-      "Cold chain validation",
-      "Temperature logging systems",
-      "Specialized equipment",
-      "Compliance documentation"
+      "70-door facility",
+      "Strategic location in Concord",
+      "Efficient freight transfer",
+      "Value-added services",
+      "Professional handling",
+      "Flexible scheduling"
     ],
     benefits: [
-      "Product integrity protection",
-      "Regulatory compliance",
-      "Reduced spoilage",
-      "Quality assurance",
-      "Extended shelf life"
+      "Reduced handling time",
+      "Cost-effective distribution",
+      "Strategic location",
+      "Professional service",
+      "Flexible operations"
     ],
-    industries: ["Food & Beverage", "Pharmaceuticals", "Healthcare", "Agriculture"]
+    industries: ["Retail", "E-commerce", "Manufacturing", "Distribution"]
+  },
+  {
+    id: 6,
+    title: "Consolidation Services",
+    shortDescription: "Transam Carriers has significant experience in the consolidation and deconsolidation of shipments both domestically and cross border with our unique combined truckload and LTL services.",
+    fullDescription: "Our consolidation services combine multiple shipments for efficient transportation, offering both domestic and cross-border consolidation and deconsolidation services.",
+    icon: "Zap",
+    features: [
+      "Domestic and cross-border",
+      "Consolidation and deconsolidation",
+      "Combined TL and LTL",
+      "Experienced handling",
+      "Cost optimization",
+      "Flexible solutions"
+    ],
+    benefits: [
+      "Reduced shipping costs",
+      "Efficient routing",
+      "Flexible solutions",
+      "Professional handling",
+      "Cross-border expertise"
+    ],
+    industries: ["Import/Export", "Manufacturing", "Retail", "E-commerce"]
   }
 ];
 
