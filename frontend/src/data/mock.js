@@ -293,26 +293,40 @@ export const aboutContent = {
 
 export const contactInfo = {
   headquarters: {
-    title: "Corporate Headquarters",
-    address: "2500 Logistics Parkway, Suite 200",
-    city: "Chicago, IL 60601",
+    title: "Head Office",
+    address: "205 Doney Crescent",
+    city: "Concord ON L4K 1P6, Canada",
     phone: companyInfo.phone,
     email: companyInfo.email,
-    hours: "Monday - Friday: 7:00 AM - 7:00 PM CST"
+    hours: "Monday - Friday: 08:00 - 18:00"
   },
   operations: {
-    title: "24/7 Operations Center", 
-    address: "3800 Distribution Boulevard",
-    city: "Dallas, TX 75201",
-    phone: "+1 (888) 537-8748",
-    email: "dispatch@lepusgroup.com",
+    title: "24/7 Operations & Dispatch", 
+    address: "205 Doney Crescent",
+    city: "Concord ON L4K 1P6, Canada",
+    phone: "+1 (416) 907-8101 ext. 1",
+    email: "dispatch@transamcarriers.com",
     hours: "24/7 Dispatch & Customer Support"
   },
-  emergency: {
-    title: "Emergency Services",
-    phone: companyInfo.emergencyLine,
-    email: "emergency@lepusgroup.com",
-    description: "Round-the-clock emergency logistics support for critical shipments and urgent situations."
+  newOrders: {
+    title: "New Orders Booking",
+    phone: "+1 (416) 907-8101 ext. 8020",
+    email: "orders@transamcarriers.com",
+    description: "Quick quote requests and new order booking"
+  },
+  safety: {
+    title: "Safety Department",
+    phone: "+1 (416) 907-8101 ext. 8008",
+    email: "safety@transamcarriers.com",
+    contact: "Mike",
+    description: "Safety inquiries and compliance matters"
+  },
+  careers: {
+    title: "Careers & HR",
+    phone: "+1 (416) 907-8101 ext. 5",
+    email: "careers@transamcarriers.com",
+    contact: "Diana",
+    description: "Driver recruitment and employment opportunities"
   }
 };
 
