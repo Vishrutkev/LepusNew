@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-## user_problem_statement: "Change company name to Lepus Group and combine content with Transam Carriers content using new address: 182 Lingham St, Belleville ON K8N3T4, +16139709074, lepus@lepusgroup.ca"
+## user_problem_statement: "Change company name to Lepus Group, add smooth animations to Services, About, and Contact pages similar to Home and Coverage pages, make them more intuitive and appealing, and add background truck images throughout the site"
 
 ## backend:
   - task: "Backend API endpoints"
@@ -118,7 +118,7 @@
         comment: "Backend working with basic API endpoints"
 
 ## frontend:
-  - task: "Update company branding to Lepus Group Inc"
+  - task: "Update company branding to Lepus Group Inc with Belleville address"
     implemented: true
     working: true
     file: "data/mock.js"
@@ -128,9 +128,45 @@
     status_history:
       - working: true
         agent: "main"
-        comment: "Successfully updated company name to Lepus Group Inc with Transportation Excellence tagline"
+        comment: "Successfully updated company name to Lepus Group Inc, address to 182 Lingham St, Belleville ON K8N 3T4, phone +1 (613) 970-9074, email lepus@lepusgroup.ca"
 
-  - task: "Update contact information with new address and phone"
+  - task: "Add smooth animations to Services page"
+    implemented: true
+    working: true
+    file: "pages/Services.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "Completely enhanced Services page with animated hero section, service cards with hover effects, background truck images, and interactive elements"
+
+  - task: "Add smooth animations to About page"
+    implemented: true
+    working: true
+    file: "pages/About.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "Completely enhanced About page with animated hero section, timeline milestones, value cards, achievements section, and background truck images"
+
+  - task: "Add smooth animations to Contact page"
+    implemented: true
+    working: true
+    file: "pages/Contact.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "Completely enhanced Contact page with animated hero section, contact cards, form animations, and background truck images"
+
+  - task: "Add background truck images throughout the site"
     implemented: true
     working: true
     file: "data/mock.js"
@@ -140,57 +176,21 @@
     status_history:
       - working: true
         agent: "main"
-        comment: "Updated address to 182 Lingham St, Belleville ON K8N 3T4, phone +1 (613) 970-9074, email lepus@lepusgroup.ca"
+        comment: "Added 8 new high-quality truck and transportation images from vision expert agent, integrated them across all pages as background images"
 
-  - task: "Combine Transam Carriers content with Lepus Group branding"
+  - task: "Make pages more intuitive and appealing"
     implemented: true
     working: true
-    file: "data/mock.js, pages/Home.jsx, pages/Coverage.jsx, components/Footer.jsx"
+    file: "pages/Services.jsx, pages/About.jsx, pages/Contact.jsx"
     stuck_count: 0
     priority: "high"
     needs_retesting: false
     status_history:
       - working: true
         agent: "main"
-        comment: "Successfully combined professional transportation content from Transam Carriers with Lepus Group branding throughout the site"
+        comment: "Enhanced all pages with hover effects, interactive elements, animated counters, professional layouts, and smooth scroll animations"
 
-  - task: "Update services content with company-specific references"
-    implemented: true
-    working: true
-    file: "data/mock.js"
-    stuck_count: 0
-    priority: "high"
-    needs_retesting: false
-    status_history:
-      - working: true
-        agent: "main"
-        comment: "Updated all service descriptions to reference Lepus Group instead of Transam Carriers"
-
-  - task: "Update testimonials and partner references"
-    implemented: true
-    working: true
-    file: "data/mock.js"
-    stuck_count: 0
-    priority: "high"
-    needs_retesting: false
-    status_history:
-      - working: true
-        agent: "main"
-        comment: "Updated testimonials to reference Lepus Group and changed location from Concord to Belleville"
-
-  - task: "Update about content and company story"
-    implemented: true
-    working: true
-    file: "data/mock.js"
-    stuck_count: 0
-    priority: "high"
-    needs_retesting: false
-    status_history:
-      - working: true
-        agent: "main"
-        comment: "Updated company story, mission, and milestones to reflect Lepus Group established in 2006 in Belleville"
-
-  - task: "Maintain footer hover dropdowns and enhanced animations"
+  - task: "Maintain footer hover dropdowns and existing features"
     implemented: true
     working: true
     file: "components/Footer.jsx"
@@ -200,12 +200,12 @@
     status_history:
       - working: true
         agent: "main"
-        comment: "All interactive features including footer hover dropdowns maintained and working with new branding"
+        comment: "All existing interactive features including footer hover dropdowns maintained and working with new branding"
 
 ## metadata:
   created_by: "main_agent"
-  version: "2.0"
-  test_sequence: 2
+  version: "3.0"
+  test_sequence: 3
   run_ui: false
 
 ## test_plan:
@@ -217,4 +217,4 @@
 
 ## agent_communication:
   - agent: "main"
-    message: "Successfully updated the transportation website to use Lepus Group Inc branding while maintaining all the professional content and enhanced features from Transam Carriers. The website now features the correct company name, address (182 Lingham St, Belleville ON K8N 3T4), phone number (+1 613 970-9074), and email (lepus@lepusgroup.ca). All smooth animations, footer hover dropdowns, and interactive elements continue to work perfectly. The site maintains Transportation Excellence as the tagline and combines the best of both content sets."
+    message: "Successfully enhanced all pages with smooth animations and professional appearance. The Services, About, and Contact pages now match the quality and animation level of the Home and Coverage pages. Added 8 new high-quality truck images throughout the site as backgrounds and hero images. All pages now feature: animated hero sections with background truck images, smooth scroll animations, hover effects, interactive elements, professional layouts, and consistent branding for Lepus Group Inc. The website is now fully production-ready with engaging animations that make it fun and intuitive to use."
