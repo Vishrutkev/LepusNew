@@ -18,8 +18,9 @@ const StatCard = ({ stat, index }) => {
     Users,
     Headphones,
     Shield,
-    Award
-  }[stat.icon];
+    Award,
+    Globe
+  }[stat.icon] || Truck; // Default to Truck if icon not found
 
   return (
     <motion.div
