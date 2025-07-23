@@ -113,9 +113,9 @@ const Footer = () => {
 
       {/* Main Footer Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 py-16">
-        <div className="grid md:grid-cols-4 gap-8 mb-12 relative">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12 relative">
           {/* Company Info */}
-          <div className="md:col-span-1">
+          <div className="md:col-span-1 order-1">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -177,7 +177,7 @@ const Footer = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="flex justify-center md:justify-start items-start"
+            className="order-2 flex justify-center md:justify-start items-start"
           >
             <FooterDropdown 
               title="Services" 
@@ -192,7 +192,7 @@ const Footer = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="flex justify-center md:justify-start items-start"
+            className="order-3 flex justify-center md:justify-start items-start"
           >
             <FooterDropdown 
               title="Discover" 
@@ -207,7 +207,7 @@ const Footer = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            className="flex justify-center md:justify-start items-start"
+            className="order-4 flex justify-center md:justify-start items-start"
           >
             <FooterDropdown 
               title="Resources" 
