@@ -1,18 +1,27 @@
 import React from 'react';
-import { Target, Eye, Heart, Star, ArrowRight } from 'lucide-react';
+import { motion } from 'framer-motion';
+import * as Icons from 'lucide-react';
 import { aboutContent, statistics } from '../data/mock';
 
 const ValueCard = ({ value, index }) => {
+  const LucideIcon = Icons[value.icon] || Icons.Star;
+  const colors = ['bg-green-600', 'bg-blue-600', 'bg-orange-600', 'bg-purple-600', 'bg-red-600'];
+  const iconColor = colors[index % colors.length];
+
   return (
-    <div className="design-card group">
-      <div className={`card-icon ${index === 0 ? 'bg-green-600' : index === 1 ? 'bg-blue-600' : 'bg-orange-600'}`}>
-        {index === 0 && <Target className="w-8 h-8 text-white" />}
-        {index === 1 && <Eye className="w-8 h-8 text-white" />}
-        {index === 2 && <Heart className="w-8 h-8 text-white" />}
+    <motion.div
+      whileHover={{ scale: 1.05 }}
+      transition={{ type: 'spring', stiffness: 300, damping: 20 }}
+      className="design-card group hover:shadow-xl transition-shadow duration-300 flex items-center gap-4 p-6 bg-white rounded-xl"
+    >
+      <div className={`w-16 h-16 ${iconColor} rounded-lg flex items-center justify-center flex-shrink-0`}>
+        <LucideIcon className="w-8 h-8 text-white" />
       </div>
-      <h3 className="card-title">{value.title}</h3>
-      <p className="card-description">{value.description}</p>
-    </div>
+      <div>
+        <h3 className="text-lg font-semibold text-gray-900 mb-1">{value.title}</h3>
+        <p className="text-gray-600 text-sm leading-relaxed">{value.description}</p>
+      </div>
+    </motion.div>
   );
 };
 
@@ -26,7 +35,7 @@ const About = () => {
             <h1 className="display-lg text-gray-900 mb-6">
               About <span className="text-green-600">Lepus Group</span>
             </h1>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-white max-w-3xl mx-auto">
               Named after the swift Lepus constellation, we've been guiding freight across North America 
               with the same reliability that stars have guided travelers for centuries.
             </p>
@@ -44,7 +53,7 @@ const About = () => {
                 {aboutContent.story}
               </p>
               <div className="flex items-center text-green-600">
-                <Star className="w-5 h-5 mr-2" />
+                <Icons.Star className="w-5 h-5 mr-2" />
                 <span className="font-semibold">Swift • Reliable • Trusted Since Day One</span>
               </div>
             </div>
@@ -76,7 +85,7 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100">
               <div className="w-16 h-16 bg-green-100 rounded-xl flex items-center justify-center mb-6">
-                <Eye className="w-8 h-8 text-green-600" />
+                <Icons.Eye className="w-8 h-8 text-green-600" />
               </div>
               <h3 className="heading-3 text-gray-900 mb-4">Our Vision</h3>
               <p className="text-gray-600 leading-relaxed">{aboutContent.vision}</p>
@@ -84,7 +93,7 @@ const About = () => {
             
             <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100">
               <div className="w-16 h-16 bg-orange-100 rounded-xl flex items-center justify-center mb-6">
-                <Target className="w-8 h-8 text-orange-600" />
+                <Icons.Target className="w-8 h-8 text-orange-600" />
               </div>
               <h3 className="heading-3 text-gray-900 mb-4">Our Mission</h3>
               <p className="text-gray-600 leading-relaxed">{aboutContent.mission}</p>
@@ -104,7 +113,7 @@ const About = () => {
             </p>
           </div>
           
-          <div className="design-grid">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
             {aboutContent.values.map((value, index) => (
               <ValueCard key={index} value={value} index={index} />
             ))}
@@ -115,7 +124,7 @@ const About = () => {
       {/* Statistics Section */}
       <section className="py-20 bg-gradient-to-br from-gray-900 to-gray-800 text-white">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <h2 className="heading-2 mb-4">Our Impact by the Numbers</h2>
+        <h2 className="heading-2 mb-4 !text-white">Our Impact by the Numbers</h2>
           <p className="body-lg mb-12 opacity-90 max-w-2xl mx-auto">
             Every number tells a story of trust, reliability, and our commitment to excellence 
             in the logistics industry.
@@ -147,7 +156,7 @@ const About = () => {
               href="/contact"
               className="bg-white text-green-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-50 transition-colors inline-flex items-center justify-center"
             >
-              Get Started Today <ArrowRight className="w-5 h-5 ml-2" />
+              Get Started Today <Icons.ArrowRight className="w-5 h-5 ml-2" />
             </a>
             <a
               href="/services"
