@@ -178,9 +178,10 @@ const Footer = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="order-2 flex justify-center md:justify-start items-start"
+            className="order-2 flex justify-center md:justify-start items-start bg-green-500/10 p-4 rounded"
           >
             <div className="text-white">
+              <div className="text-white text-sm mb-2">DEBUG: Services Column</div>
               <h3 className="text-lg font-semibold mb-4 flex items-center">
                 <Truck className="w-5 h-5 mr-2" />
                 Services
@@ -201,9 +202,10 @@ const Footer = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="order-3 flex justify-center md:justify-start items-start"
+            className="order-3 flex justify-center md:justify-start items-start bg-blue-500/10 p-4 rounded"
           >
             <div className="text-white">
+              <div className="text-white text-sm mb-2">DEBUG: Discover Column</div>
               <h3 className="text-lg font-semibold mb-4 flex items-center">
                 <Globe className="w-5 h-5 mr-2" />
                 Discover
@@ -224,9 +226,10 @@ const Footer = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            className="order-4 flex justify-center md:justify-start items-start"
+            className="order-4 flex justify-center md:justify-start items-start bg-purple-500/10 p-4 rounded"
           >
             <div className="text-white">
+              <div className="text-white text-sm mb-2">DEBUG: Resources Column</div>
               <h3 className="text-lg font-semibold mb-4 flex items-center">
                 <Shield className="w-5 h-5 mr-2" />
                 Resources
