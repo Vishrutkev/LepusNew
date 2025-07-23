@@ -113,9 +113,10 @@ const Footer = () => {
 
       {/* Main Footer Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12 relative">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12 relative min-h-[200px]">
           {/* Company Info */}
-          <div className="md:col-span-1 order-1">
+          <div className="md:col-span-1 order-1 bg-red-500/10 p-4 rounded">
+            <div className="text-white text-sm mb-2">DEBUG: Company Info Column</div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
