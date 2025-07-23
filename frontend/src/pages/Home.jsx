@@ -293,7 +293,7 @@ const Home = () => {
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                   <img 
                     src={heroImages.secondary}
-                    alt="Lepus Group Fleet"
+                    alt="Transam Carriers Fleet"
                     className="w-full h-96 lg:h-[600px] object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-blue-900/50 to-transparent"></div>
