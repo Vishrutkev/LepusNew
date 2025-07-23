@@ -336,7 +336,7 @@ export const testimonials = [
     name: "Sarah Johnson",
     title: "Logistics Manager",
     company: "Packaging Solutions Inc.",
-    content: "Transam Carriers has been our trusted partner for over 8 years. Their team service and commitment to on-time delivery has helped us maintain our competitive edge. The professional drivers and real-time tracking give us complete confidence in every shipment.",
+    content: "Lepus Group has been our trusted partner for over 8 years. Their team service and commitment to on-time delivery has helped us maintain our competitive edge. The professional drivers and real-time tracking give us complete confidence in every shipment.",
     rating: 5,
     shipments: "2,400+ annual loads",
     partnership: "8 years"
@@ -346,7 +346,7 @@ export const testimonials = [
     name: "Michael Chen",
     title: "Supply Chain Director", 
     company: "Retail Distribution Corp.",
-    content: "Working with Transam feels like having an extension of our own logistics team. Their expertise in both LTL and FTL services, combined with their cross-border capabilities, has been crucial for our North American operations. Outstanding reliability and service.",
+    content: "Working with Lepus Group feels like having an extension of our own logistics team. Their expertise in both LTL and FTL services, combined with their cross-border capabilities, has been crucial for our North American operations. Outstanding reliability and service.",
     rating: 5,
     shipments: "3,200+ annual loads",
     partnership: "6 years"
@@ -356,7 +356,7 @@ export const testimonials = [
     name: "Jennifer Martinez",
     title: "Operations Manager",
     company: "Automotive Parts Ltd.",
-    content: "The team at Transam understands the complexities of automotive logistics. Their flexible scheduling and team service approach ensures our parts are delivered exactly when needed. They've helped us improve our supply chain efficiency significantly.",
+    content: "The team at Lepus Group understands the complexities of automotive logistics. Their flexible scheduling and team service approach ensures our parts are delivered exactly when needed. They've helped us improve our supply chain efficiency significantly.",
     rating: 5,
     shipments: "1,800+ annual loads",
     partnership: "5 years"
@@ -366,7 +366,7 @@ export const testimonials = [
     name: "David Wilson",
     title: "Transportation Coordinator",
     company: "Small Parcel Solutions",
-    content: "Transam's consolidation services have been invaluable for our operations. Their experience in handling small parcel consolidations and their strategic location in Concord makes them our preferred partner. Professional service and competitive pricing.",
+    content: "Lepus Group's consolidation services have been invaluable for our operations. Their experience in handling small parcel consolidations and their strategic location in Belleville makes them our preferred partner. Professional service and competitive pricing.",
     rating: 5,
     shipments: "4,100+ annual loads",
     partnership: "4 years"
