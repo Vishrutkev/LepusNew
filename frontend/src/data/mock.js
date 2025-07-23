@@ -18,7 +18,16 @@ export const heroImages = {
   secondary: "https://images.unsplash.com/photo-1585541571714-01aa54eaf7c2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwzfHx0cnVja3xlbnwwfHx8Ymx1ZXwxNzUzMjM3NjY0fDA&ixlib=rb-4.1.0&q=85",
   logistics: "https://images.unsplash.com/photo-1587149185211-28a2ef4c9a10?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxsb2dpc3RpY3N8ZW58MHx8fGJsdWV8MTc1MzIzNzY3MHww&ixlib=rb-4.1.0&q=85",
   team: "https://images.unsplash.com/photo-1602750766769-8db8d49cc369?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwyfHx0cnVja3xlbnwwfHx8Ymx1ZXwxNzUzMjM3NjY0fDA&ixlib=rb-4.1.0&q=85",
-  fleet: "https://images.unsplash.com/photo-1566449781267-88f21cc4af19?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwzfHxsb2dpc3RpY3N8ZW58MHx8fGJsdWV8MTc1MzIzNzY3MHww&ixlib=rb-4.1.0&q=85"
+  fleet: "https://images.unsplash.com/photo-1566449781267-88f21cc4af19?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwzfHxsb2dpc3RpY3N8ZW58MHx8fGJsdWV8MTc1MzIzNzY3MHww&ixlib=rb-4.1.0&q=85",
+  // New truck images for enhanced pages
+  truck1: "https://images.unsplash.com/photo-1485575301924-6891ef935dcd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwxfHx0cnVja3xlbnwwfHx8fDE3NTMyNDIxMzh8MA&ixlib=rb-4.1.0&q=85",
+  truck2: "https://images.unsplash.com/photo-1592838064575-70ed626d3a0e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwyfHx0cnVja3xlbnwwfHx8fDE3NTMyNDIxMzh8MA&ixlib=rb-4.1.0&q=85",
+  truck3: "https://images.unsplash.com/photo-1501700493788-fa1a4fc9fe62?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwzfHx0cnVja3xlbnwwfHx8fDE3NTMyNDIxMzh8MA&ixlib=rb-4.1.0&q=85",
+  transportation1: "https://images.unsplash.com/photo-1498084393753-b411b2d26b34?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHx0cmFuc3BvcnRhdGlvbnxlbnwwfHx8fDE3NTMyNDIxNDV8MA&ixlib=rb-4.1.0&q=85",
+  transportation2: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwyfHx0cmFuc3BvcnRhdGlvbnxlbnwwfHx8fDE3NTMyNDIxNDV8MA&ixlib=rb-4.1.0&q=85",
+  transportation3: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwzfHx0cmFuc3BvcnRhdGlvbnxlbnwwfHx8fDE3NTMyNDIxNDV8MA&ixlib=rb-4.1.0&q=85",
+  warehouse: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwxfHxsb2dpc3RpY3N8ZW58MHx8fHwxNzUzMjQyMTYxfDA&ixlib=rb-4.1.0&q=85",
+  logistics2: "https://images.unsplash.com/photo-1504376830547-506dedfe1fe9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwyfHxsb2dpc3RpY3N8ZW58MHx8fHwxNzUzMjQyMTYxfDA&ixlib=rb-4.1.0&q=85"
 };
 
 export const statistics = [
