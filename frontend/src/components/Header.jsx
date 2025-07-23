@@ -34,15 +34,20 @@ const Header = () => {
         {/* Logo */}
         <motion.div
           whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
           transition={{ type: "spring", stiffness: 400, damping: 17 }}
         >
-          <Link to="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl flex items-center justify-center shadow-lg">
+          <Link to="/" className="flex items-center space-x-3 group">
+            <motion.div 
+              className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-shadow duration-300"
+              whileHover={{ rotate: 360 }}
+              transition={{ duration: 0.6 }}
+            >
               <Truck className="w-7 h-7 text-white" />
-            </div>
+            </motion.div>
             <div className="flex flex-col">
-              <span className="text-2xl font-bold text-gray-900">{companyInfo.name}</span>
-              <span className="text-xs text-blue-600 font-semibold -mt-1">{companyInfo.tagline}</span>
+              <span className="text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors duration-300">{companyInfo.name}</span>
+              <span className="text-xs text-blue-600 font-semibold -mt-1 group-hover:text-blue-700 transition-colors duration-300">{companyInfo.tagline}</span>
             </div>
           </Link>
         </motion.div>
