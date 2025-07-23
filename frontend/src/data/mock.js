@@ -1,14 +1,14 @@
 // Premium Transam Carriers - Professional Mock Data
 
 export const companyInfo = {
-  name: "Transam Carriers Inc",
-  tagline: "Here for the Long Haul",
+  name: "Lepus Group Inc",
+  tagline: "Transportation Excellence",
   subtitle: "Premium Team Service, proudly delivering across Canada and the United States",
   description: "A full-service LTL, Truckload, and logistics provider with a strong focus on premium Team Service, delivering across Canada and the United States since 2006",
-  phone: "+1 (416) 907-8101",
-  email: "info@transamcarriers.com",
-  emergencyLine: "+1 (416) 907-8101",
-  address: "205 Doney Crescent, Concord ON L4K 1P6, Canada",
+  phone: "+1 (613) 970-9074",
+  email: "lepus@lepusgroup.ca",
+  emergencyLine: "+1 (613) 970-9074",
+  address: "182 Lingham St, Belleville ON K8N 3T4, Canada",
   establishedYear: "2006",
   hours: "Monday - Friday 08:00 - 18:00"
 };
