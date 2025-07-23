@@ -55,29 +55,45 @@ const Header = () => {
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center space-x-2">
           {navigationItems.map((item, index) => (
-            <motion.div
-              key={item.path}
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-            >
-              <Link
-                to={item.path}
-                className={`nav-link relative px-6 py-3 rounded-xl font-semibold transition-all duration-300 ${
-                  location.pathname === item.path 
-                    ? 'text-blue-600 bg-blue-50 shadow-md' 
-                    : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
-                }`}
+              <motion.div
+                key={item.path}
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                whileHover={{ y: -2 }}
               >
-                {item.name}
-                {location.pathname === item.path && (
-                  <motion.div
-                    layoutId="underline"
-                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-600 rounded-full"
-                  />
-                )}
-              </Link>
-            </motion.div>
+                <Link
+                  to={item.path}
+                  className={`nav-link relative px-6 py-3 rounded-xl font-semibold transition-all duration-300 group ${
+                    location.pathname === item.path 
+                      ? 'text-blue-600 bg-blue-50 shadow-md' 
+                      : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50 hover:shadow-md'
+                  }`}
+                >
+                  <motion.span
+                    className="relative z-10"
+                    whileHover={{ scale: 1.05 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                  >
+                    {item.name}
+                  </motion.span>
+                  {location.pathname === item.path && (
+                    <motion.div
+                      layoutId="activeNavItem"
+                      className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-blue-600/10 rounded-xl"
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      transition={{ duration: 0.3 }}
+                    />
+                  )}
+                  {location.pathname === item.path && (
+                    <motion.div
+                      layoutId="underline"
+                      className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full"
+                    />
+                  )}
+                </Link>
+              </motion.div>
           ))}
           
           {/* Phone Number */}
