@@ -264,21 +264,21 @@ const Home = () => {
                 >
                   <div className="text-center">
                     <div className="text-3xl font-bold text-blue-400 mb-2">
-                      <AnimatedCounter number={125} suffix="K+" duration={2.5} />
-                    </div>
-                    <div className="text-gray-400 text-sm">Annual Loads</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-blue-400 mb-2">
-                      <AnimatedCounter number={99.92} suffix="%" precision={2} duration={2.5} />
+                      <AnimatedCounter number={98.5} suffix="%" precision={1} duration={2.5} />
                     </div>
                     <div className="text-gray-400 text-sm">On-Time Rate</div>
                   </div>
                   <div className="text-center">
                     <div className="text-3xl font-bold text-blue-400 mb-2">
-                      <AnimatedCounter number={1850} suffix="+" duration={2.5} />
+                      <AnimatedCounter number={18} suffix="+" duration={2.5} />
                     </div>
-                    <div className="text-gray-400 text-sm">Active Clients</div>
+                    <div className="text-gray-400 text-sm">Years Experience</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-blue-400 mb-2">
+                      <AnimatedCounter number={1000} suffix="+" duration={2.5} />
+                    </div>
+                    <div className="text-gray-400 text-sm">Satisfied Clients</div>
                   </div>
                 </motion.div>
               </motion.div>
