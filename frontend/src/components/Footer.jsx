@@ -31,7 +31,11 @@ const FooterDropdown = ({ title, items, icon: Icon }) => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.2 }}
-            className="absolute bottom-full left-0 mb-2 bg-white rounded-lg shadow-2xl p-4 min-w-64 z-50"
+            className="absolute top-full left-0 mt-2 bg-white rounded-lg shadow-2xl p-4 min-w-64 z-[9999] border border-gray-200"
+            style={{ 
+              boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
+              transform: 'translateZ(0)' // Force hardware acceleration
+            }}
           >
             <div className="space-y-3">
               {items.map((item, index) => (
