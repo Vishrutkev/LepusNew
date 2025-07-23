@@ -319,43 +319,43 @@ export const contactInfo = {
 export const testimonials = [
   {
     id: 1,
-    name: "Jennifer Chen",
-    title: "VP of Supply Chain Operations",
-    company: "FGF Brands",
-    content: "Lepus Group has been instrumental in revolutionizing our supply chain efficiency. Their commitment to on-time delivery and proactive communication has helped us maintain our competitive edge in the food industry. The technology platform provides unprecedented visibility into our shipments.",
+    name: "Sarah Johnson",
+    title: "Logistics Manager",
+    company: "Packaging Solutions Inc.",
+    content: "Transam Carriers has been our trusted partner for over 8 years. Their team service and commitment to on-time delivery has helped us maintain our competitive edge. The professional drivers and real-time tracking give us complete confidence in every shipment.",
     rating: 5,
-    shipments: "12,000+ annual loads",
-    partnership: "7 years"
+    shipments: "2,400+ annual loads",
+    partnership: "8 years"
   },
   {
     id: 2,
-    name: "Michael Rodriguez",
-    title: "Director of Logistics", 
-    company: "Saputo Inc.",
-    content: "Working with Lepus Group feels like having an extension of our own logistics team. Their expertise in temperature-controlled transportation and cross-border operations has been crucial for our dairy supply chain. The 99.92% on-time delivery rate speaks for itself.",
+    name: "Michael Chen",
+    title: "Supply Chain Director", 
+    company: "Retail Distribution Corp.",
+    content: "Working with Transam feels like having an extension of our own logistics team. Their expertise in both LTL and FTL services, combined with their cross-border capabilities, has been crucial for our North American operations. Outstanding reliability and service.",
     rating: 5,
-    shipments: "8,500+ annual loads",
-    partnership: "5 years"
+    shipments: "3,200+ annual loads",
+    partnership: "6 years"
   },
   {
     id: 3,
-    name: "Sarah Thompson",
-    title: "Supply Chain Director",
-    company: "Maple Leaf Foods",
-    content: "The team at Lepus Group understands the complexities of food logistics better than anyone. Their safety-first approach and advanced tracking capabilities give us complete confidence in every shipment. They've helped us reduce transportation costs by 15% while improving service levels.",
+    name: "Jennifer Martinez",
+    title: "Operations Manager",
+    company: "Automotive Parts Ltd.",
+    content: "The team at Transam understands the complexities of automotive logistics. Their flexible scheduling and team service approach ensures our parts are delivered exactly when needed. They've helped us improve our supply chain efficiency significantly.",
     rating: 5,
-    shipments: "6,800+ annual loads",
-    partnership: "4 years"
+    shipments: "1,800+ annual loads",
+    partnership: "5 years"
   },
   {
     id: 4,
-    name: "David Kim",
-    title: "Operations Manager",
-    company: "McCain Foods",
-    content: "Lepus Group's cross-border expertise has been invaluable for our North American operations. Their FAST-approved drivers and customs knowledge ensure our frozen products move seamlessly between Canada and the USA. Outstanding service and reliability.",
+    name: "David Wilson",
+    title: "Transportation Coordinator",
+    company: "Small Parcel Solutions",
+    content: "Transam's consolidation services have been invaluable for our operations. Their experience in handling small parcel consolidations and their strategic location in Concord makes them our preferred partner. Professional service and competitive pricing.",
     rating: 5,
-    shipments: "9,200+ annual loads",
-    partnership: "6 years"
+    shipments: "4,100+ annual loads",
+    partnership: "4 years"
   }
 ];
 
