@@ -408,6 +408,6 @@ export const navigationItems = [
   { name: "Home", path: "/" },
   { name: "Services", path: "/services" },
   { name: "About", path: "/about" },
-  { name: "Industries", path: "/industries" },
+  { name: "Coverage", path: "/coverage" },
   { name: "Contact", path: "/contact" }
 ];
