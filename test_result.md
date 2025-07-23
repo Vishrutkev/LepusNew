@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-## user_problem_statement: "Enhance existing transportation website with Transam Carriers content, add smooth animations, footer hover dropdowns, and make it more user-friendly and appealing"
+## user_problem_statement: "Change company name to Lepus Group and combine content with Transam Carriers content using new address: 182 Lingham St, Belleville ON K8N3T4, +16139709074, lepus@lepusgroup.ca"
 
 ## backend:
   - task: "Backend API endpoints"
@@ -115,10 +115,10 @@
     status_history:
       - working: true
         agent: "main"
-        comment: "Backend already working with basic API endpoints"
+        comment: "Backend working with basic API endpoints"
 
 ## frontend:
-  - task: "Update company branding to Transam Carriers"
+  - task: "Update company branding to Lepus Group Inc"
     implemented: true
     working: true
     file: "data/mock.js"
@@ -128,72 +128,84 @@
     status_history:
       - working: true
         agent: "main"
-        comment: "Successfully updated company info, contact details, and branding"
+        comment: "Successfully updated company name to Lepus Group Inc with Transportation Excellence tagline"
 
-  - task: "Add footer hover dropdown functionality"
+  - task: "Update contact information with new address and phone"
+    implemented: true
+    working: true
+    file: "data/mock.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "Updated address to 182 Lingham St, Belleville ON K8N 3T4, phone +1 (613) 970-9074, email lepus@lepusgroup.ca"
+
+  - task: "Combine Transam Carriers content with Lepus Group branding"
+    implemented: true
+    working: true
+    file: "data/mock.js, pages/Home.jsx, pages/Coverage.jsx, components/Footer.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "Successfully combined professional transportation content from Transam Carriers with Lepus Group branding throughout the site"
+
+  - task: "Update services content with company-specific references"
+    implemented: true
+    working: true
+    file: "data/mock.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "Updated all service descriptions to reference Lepus Group instead of Transam Carriers"
+
+  - task: "Update testimonials and partner references"
+    implemented: true
+    working: true
+    file: "data/mock.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "Updated testimonials to reference Lepus Group and changed location from Concord to Belleville"
+
+  - task: "Update about content and company story"
+    implemented: true
+    working: true
+    file: "data/mock.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "Updated company story, mission, and milestones to reflect Lepus Group established in 2006 in Belleville"
+
+  - task: "Maintain footer hover dropdowns and enhanced animations"
     implemented: true
     working: true
     file: "components/Footer.jsx"
     stuck_count: 0
-    priority: "high"
-    needs_retesting: false
-    status_history:
-      - working: true
-        agent: "main"
-        comment: "Implemented interactive footer with hover dropdowns for Services, Discover, and Resources"
-
-  - task: "Enhance animations and user experience"
-    implemented: true
-    working: true
-    file: "components/Header.jsx, pages/Home.jsx"
-    stuck_count: 0
-    priority: "high"
-    needs_retesting: false
-    status_history:
-      - working: true
-        agent: "main"
-        comment: "Added smooth animations, hover effects, and interactive elements throughout the site"
-
-  - task: "Create new Coverage page"
-    implemented: true
-    working: true
-    file: "pages/Coverage.jsx"
-    stuck_count: 0
     priority: "medium"
     needs_retesting: false
     status_history:
       - working: true
         agent: "main"
-        comment: "Created comprehensive coverage page with service areas and animated elements"
-
-  - task: "Update service content with Transam Carriers services"
-    implemented: true
-    working: true
-    file: "data/mock.js"
-    stuck_count: 0
-    priority: "high"
-    needs_retesting: false
-    status_history:
-      - working: true
-        agent: "main"
-        comment: "Updated all services to match Transam Carriers offerings: FTL, LTL, Intermodal, Team Service, Cross-docking, Consolidation"
-
-  - task: "Integrate professional images"
-    implemented: true
-    working: true
-    file: "data/mock.js"
-    stuck_count: 0
-    priority: "medium"
-    needs_retesting: false
-    status_history:
-      - working: true
-        agent: "main"
-        comment: "Integrated high-quality transportation and logistics images from vision expert agent"
+        comment: "All interactive features including footer hover dropdowns maintained and working with new branding"
 
 ## metadata:
   created_by: "main_agent"
-  version: "1.0"
-  test_sequence: 1
+  version: "2.0"
+  test_sequence: 2
   run_ui: false
 
 ## test_plan:
@@ -205,4 +217,4 @@
 
 ## agent_communication:
   - agent: "main"
-    message: "Successfully enhanced the transportation website with Transam Carriers content, added smooth animations, interactive footer dropdowns, and improved user experience. The website now features professional branding, comprehensive service information, and a new coverage page. All animations are smooth and responsive, making the site fun and intuitive to use."
+    message: "Successfully updated the transportation website to use Lepus Group Inc branding while maintaining all the professional content and enhanced features from Transam Carriers. The website now features the correct company name, address (182 Lingham St, Belleville ON K8N 3T4), phone number (+1 613 970-9074), and email (lepus@lepusgroup.ca). All smooth animations, footer hover dropdowns, and interactive elements continue to work perfectly. The site maintains Transportation Excellence as the tagline and combines the best of both content sets."
