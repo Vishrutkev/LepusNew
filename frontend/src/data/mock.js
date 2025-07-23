@@ -117,7 +117,7 @@ export const services = [
     id: 1,
     title: "Full Truckload Service",
     shortDescription: "Ready to put your full truckload (FTL) on the road as soon as possible, short haul or long haul. Our highly trained drivers ensure your freight is delivered fast and safe.",
-    fullDescription: "Transam Carriers are always ready to put your full truckload (FTL) on the road as soon as possible, short haul or long haul. Our highly trained drivers will make sure your freight is delivered fast and safe with our premium team service.",
+    fullDescription: "Lepus Group is always ready to put your full truckload (FTL) on the road as soon as possible, short haul or long haul. Our highly trained drivers will make sure your freight is delivered fast and safe with our premium team service.",
     icon: "Truck",
     features: [
       "Professional team drivers",
@@ -139,7 +139,7 @@ export const services = [
   {
     id: 2,
     title: "LTL Service",
-    shortDescription: "If you have less than a truckload (LTL) of freight – just one skid or a dozen – you can always trust Transam Carriers with delivering it quickly and reliably at a price that is just right.",
+    shortDescription: "If you have less than a truckload (LTL) of freight – just one skid or a dozen – you can always trust Lepus Group with delivering it quickly and reliably at a price that is just right.",
     fullDescription: "Our LTL services provide cost-effective solutions for smaller freight shipments. Whether it's one skid or a dozen, we deliver quickly and reliably at competitive prices.",
     icon: "Package",
     features: [
@@ -162,7 +162,7 @@ export const services = [
   {
     id: 3,
     title: "Intermodal Service",
-    shortDescription: "Take advantage of multiple modes of transportation. Transam has a rail offering from Ontario to Western Canada for truckload shipments that are deferred in nature.",
+    shortDescription: "Take advantage of multiple modes of transportation. Lepus Group has a rail offering from Ontario to Western Canada for truckload shipments that are deferred in nature.",
     fullDescription: "For cost-effective transportation, our intermodal services combine rail and truck transport from Ontario to Western Canada, perfect for deferred truckload shipments.",
     icon: "Globe",
     features: [
@@ -208,12 +208,12 @@ export const services = [
   {
     id: 5,
     title: "Cross-Docking",
-    shortDescription: "With Transam's strategically located 70 doors cross-dock facility in Concord Ontario, we provide additional value-added services including cross-docking of freight.",
-    fullDescription: "Our 70-door cross-dock facility in Concord Ontario provides comprehensive cross-docking services for efficient freight transfer and distribution.",
+    shortDescription: "With Lepus Group's strategically located cross-dock facility in Belleville Ontario, we provide additional value-added services including cross-docking of freight.",
+    fullDescription: "Our cross-dock facility in Belleville Ontario provides comprehensive cross-docking services for efficient freight transfer and distribution.",
     icon: "Warehouse",
     features: [
-      "70-door facility",
-      "Strategic location in Concord",
+      "Strategic facility location",
+      "Strategic location in Belleville",
       "Efficient freight transfer",
       "Value-added services",
       "Professional handling",
@@ -231,7 +231,7 @@ export const services = [
   {
     id: 6,
     title: "Consolidation Services",
-    shortDescription: "Transam Carriers has significant experience in the consolidation and deconsolidation of shipments both domestically and cross border with our unique combined truckload and LTL services.",
+    shortDescription: "Lepus Group has significant experience in the consolidation and deconsolidation of shipments both domestically and cross border with our unique combined truckload and LTL services.",
     fullDescription: "Our consolidation services combine multiple shipments for efficient transportation, offering both domestic and cross-border consolidation and deconsolidation services.",
     icon: "Zap",
     features: [
