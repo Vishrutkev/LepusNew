@@ -217,9 +217,9 @@ const Home = () => {
                   transition={{ duration: 1, delay: 0.4 }}
                   className="text-6xl lg:text-7xl font-bold leading-tight mb-6"
                 >
-                  Swift as the
+                  Transportation
                   <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
-                    Constellation
+                    Excellence
                   </span>
                 </motion.h2>
 
@@ -229,9 +229,9 @@ const Home = () => {
                   transition={{ duration: 1, delay: 0.6 }}
                   className="text-2xl text-gray-300 mb-8 leading-relaxed max-w-2xl"
                 >
-                  {companyInfo.subtitle}. Delivering excellence across North America with 
-                  <span className="text-blue-300 font-semibold"> 99.92% on-time delivery</span> and 
-                  <span className="text-blue-300 font-semibold"> 125,000+ loads annually</span>.
+                  {companyInfo.subtitle}. Known for our customer-first approach, we specialize in 
+                  <span className="text-blue-300 font-semibold"> dry van transportation</span> ensuring 
+                  <span className="text-blue-300 font-semibold"> on-time, damage-free deliveries</span> on every run.
                 </motion.p>
 
                 <motion.div
