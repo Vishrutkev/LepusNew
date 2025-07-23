@@ -401,7 +401,7 @@ const Home = () => {
             <h2 className="text-5xl font-bold text-white mb-6">Trusted by Industry Leaders</h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
               We're proud to serve leading companies across North America, building lasting partnerships 
-              through exceptional service, reliability, and innovative logistics solutions.
+              through exceptional service, reliability, and professional transportation solutions.
             </p>
           </motion.div>
           
