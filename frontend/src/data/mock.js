@@ -294,38 +294,38 @@ export const aboutContent = {
 export const contactInfo = {
   headquarters: {
     title: "Head Office",
-    address: "205 Doney Crescent",
-    city: "Concord ON L4K 1P6, Canada",
+    address: "182 Lingham St",
+    city: "Belleville ON K8N 3T4, Canada",
     phone: companyInfo.phone,
     email: companyInfo.email,
     hours: "Monday - Friday: 08:00 - 18:00"
   },
   operations: {
     title: "24/7 Operations & Dispatch", 
-    address: "205 Doney Crescent",
-    city: "Concord ON L4K 1P6, Canada",
-    phone: "+1 (416) 907-8101 ext. 1",
-    email: "dispatch@transamcarriers.com",
+    address: "182 Lingham St",
+    city: "Belleville ON K8N 3T4, Canada",
+    phone: "+1 (613) 970-9074 ext. 1",
+    email: "dispatch@lepusgroup.ca",
     hours: "24/7 Dispatch & Customer Support"
   },
   newOrders: {
     title: "New Orders Booking",
-    phone: "+1 (416) 907-8101 ext. 8020",
-    email: "orders@transamcarriers.com",
+    phone: "+1 (613) 970-9074 ext. 8020",
+    email: "orders@lepusgroup.ca",
     description: "Quick quote requests and new order booking"
   },
   safety: {
     title: "Safety Department",
-    phone: "+1 (416) 907-8101 ext. 8008",
-    email: "safety@transamcarriers.com",
-    contact: "Mike",
+    phone: "+1 (613) 970-9074 ext. 8008",
+    email: "safety@lepusgroup.ca",
+    contact: "Safety Manager",
     description: "Safety inquiries and compliance matters"
   },
   careers: {
     title: "Careers & HR",
-    phone: "+1 (416) 907-8101 ext. 5",
-    email: "careers@transamcarriers.com",
-    contact: "Diana",
+    phone: "+1 (613) 970-9074 ext. 5",
+    email: "careers@lepusgroup.ca",
+    contact: "HR Manager",
     description: "Driver recruitment and employment opportunities"
   }
 };
