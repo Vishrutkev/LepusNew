@@ -173,71 +173,29 @@ const Footer = () => {
 
           {/* Services Section */}
           <div className="col-span-1">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.3 }}
-              className="text-white"
-            >
-              <h3 className="text-lg font-semibold mb-4 flex items-center">
-                <Truck className="w-5 h-5 mr-2 text-blue-400" />
-                Services
-              </h3>
-              <div className="space-y-2">
-                {servicesItems.map((item, index) => (
-                  <div key={index} className="text-sm text-gray-400 hover:text-white cursor-pointer transition-colors">
-                    {item.name}
-                  </div>
-                ))}
-              </div>
-            </motion.div>
+            <FooterDropdown 
+              title="Services" 
+              items={servicesItems} 
+              icon={Truck}
+            />
           </div>
 
           {/* Discover Section */}
           <div className="col-span-1">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.4 }}
-              className="text-white"
-            >
-              <h3 className="text-lg font-semibold mb-4 flex items-center">
-                <Globe className="w-5 h-5 mr-2 text-blue-400" />
-                Discover
-              </h3>
-              <div className="space-y-2">
-                {discoverItems.map((item, index) => (
-                  <div key={index} className="text-sm text-gray-400 hover:text-white cursor-pointer transition-colors">
-                    {item.name}
-                  </div>
-                ))}
-              </div>
-            </motion.div>
+            <FooterDropdown 
+              title="Discover" 
+              items={discoverItems} 
+              icon={Globe}
+            />
           </div>
 
           {/* Resources Section */}
           <div className="col-span-1">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.5 }}
-              className="text-white"
-            >
-              <h3 className="text-lg font-semibold mb-4 flex items-center">
-                <Shield className="w-5 h-5 mr-2 text-blue-400" />
-                Resources
-              </h3>
-              <div className="space-y-2">
-                {resourcesItems.map((item, index) => (
-                  <div key={index} className="text-sm text-gray-400 hover:text-white cursor-pointer transition-colors">
-                    {item.name}
-                  </div>
-                ))}
-              </div>
-            </motion.div>
+            <FooterDropdown 
+              title="Resources" 
+              items={resourcesItems} 
+              icon={Shield}
+            />
           </div>
         </div>
 
