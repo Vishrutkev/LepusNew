@@ -164,9 +164,10 @@ const Home = () => {
             animate={{
               x: [0, 100, 0],
               y: [0, -50, 0],
+              rotate: [0, 180, 360],
             }}
             transition={{
-              duration: 20,
+              duration: 25,
               repeat: Infinity,
               ease: "linear"
             }}
@@ -176,13 +177,27 @@ const Home = () => {
             animate={{
               x: [0, -80, 0],
               y: [0, 60, 0],
+              rotate: [0, -180, -360],
             }}
             transition={{
-              duration: 15,
+              duration: 20,
               repeat: Infinity,
               ease: "linear"
             }}
             className="absolute bottom-20 right-20 w-96 h-96 bg-orange-500/10 rounded-full blur-3xl"
+          />
+          <motion.div
+            animate={{
+              x: [0, 120, 0],
+              y: [0, -80, 0],
+              scale: [1, 1.2, 1],
+            }}
+            transition={{
+              duration: 30,
+              repeat: Infinity,
+              ease: "linear"
+            }}
+            className="absolute top-1/2 left-1/2 w-48 h-48 bg-cyan-500/10 rounded-full blur-3xl"
           />
         </div>
 
