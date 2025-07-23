@@ -255,7 +255,7 @@ export const services = [
 
 export const aboutContent = {
   vision: "To provide quality, cost effective and professional transportation services to our customers safely and reliably, establishing ourselves as the carrier of choice for leading Canadian and American businesses.",
-  mission: "Transam Carriers Inc. was established in 2006 in response to an overwhelming need for a reliable and price-competitive transport company serving North America. With a mission and vision that both owners and employees support, Transam has a clear and definitive path.",
+  mission: "Lepus Group Inc. was established in 2006 in response to an overwhelming need for a reliable and price-competitive transport company serving North America. With a mission and vision that both owners and employees support, Lepus Group has a clear and definitive path.",
   values: [
     {
       title: "Reliable Delivery",
@@ -278,16 +278,16 @@ export const aboutContent = {
       icon: "Headphones"
     }
   ],
-  story: "Founded in 2006, Transam Carriers Inc. has quickly established itself as the carrier of choice for many leading Canadian and American businesses. Growing from one truck to our current size, Transam's growth is the result of customer satisfaction and our unwavering commitment to providing the very best in transportation services. As a privately held company with an engaged workforce, we have grown over the years focusing on providing excellent transportation and logistics solutions. With a commitment to on-time and damage-free delivery, we are HERE FOR THE LONG HAUL to serve your needs.",
+  story: "Founded in 2006, Lepus Group Inc. has quickly established itself as the carrier of choice for many leading Canadian and American businesses. Growing from one truck to our current size, Lepus Group's growth is the result of customer satisfaction and our unwavering commitment to providing the very best in transportation services. As a privately held company with an engaged workforce, we have grown over the years focusing on providing excellent transportation and logistics solutions. With a commitment to on-time and damage-free delivery, we are committed to Transportation Excellence.",
   milestones: [
-    { year: "2006", event: "Company founded with vision for reliable transport", achievement: "Established with one truck" },
+    { year: "2006", event: "Company founded with vision for reliable transport", achievement: "Established in Belleville, Ontario" },
     { year: "2008", event: "Expanded fleet and service area", achievement: "Serving Ontario and Midwest USA" },
     { year: "2010", event: "Added cross-border capabilities", achievement: "Full Canada-USA service" },
     { year: "2012", event: "Introduced team service", achievement: "Premium team driver program" },
     { year: "2015", event: "Launched intermodal services", achievement: "Rail and truck integration" },
-    { year: "2018", event: "Opened 70-door cross-dock facility", achievement: "Enhanced consolidation services" },
+    { year: "2018", event: "Opened consolidation facility", achievement: "Enhanced consolidation services" },
     { year: "2020", event: "Digital transformation and technology upgrade", achievement: "Advanced tracking systems" },
-    { year: "2024", event: "Celebrating 18 years of service", achievement: "Here for the Long Haul" }
+    { year: "2024", event: "Celebrating 18 years of Transportation Excellence", achievement: "Industry-leading service" }
   ]
 };
 
