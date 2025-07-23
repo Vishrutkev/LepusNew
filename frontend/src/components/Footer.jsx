@@ -103,7 +103,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-gradient-to-r from-gray-900 to-blue-900 text-gray-300 relative overflow-hidden">
+    <footer className="bg-gradient-to-r from-gray-900 to-blue-900 text-gray-300 relative">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-0 left-0 w-full h-full opacity-10">
@@ -113,7 +113,7 @@ const Footer = () => {
 
       {/* Main Footer Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 py-16">
-        <div className="grid md:grid-cols-4 gap-8 mb-12">
+        <div className="grid md:grid-cols-4 gap-8 mb-12 relative">
           {/* Company Info */}
           <div className="md:col-span-1">
             <motion.div
