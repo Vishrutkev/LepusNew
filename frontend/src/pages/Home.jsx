@@ -333,10 +333,10 @@ const Home = () => {
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <h2 className="text-5xl font-bold text-gray-900 mb-6">Performance That Speaks Volumes</h2>
+            <h2 className="text-5xl font-bold text-gray-900 mb-6">Performance That Delivers</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Our track record of excellence demonstrates why leading companies across North America 
-              trust Lepus Group with their most critical shipments and supply chain operations.
+              trust Transam Carriers with their most critical shipments and supply chain operations.
             </p>
           </motion.div>
           
