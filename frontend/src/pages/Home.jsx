@@ -483,7 +483,7 @@ const Home = () => {
             <h2 className="text-5xl font-bold text-gray-900 mb-6">What Our Partners Say</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Don't just take our word for it. Here's what industry leaders say about 
-              partnering with Transam Carriers for their critical transportation and logistics needs.
+              partnering with Lepus Group for their critical transportation and logistics needs.
             </p>
           </motion.div>
           
