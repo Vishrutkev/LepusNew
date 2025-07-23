@@ -59,11 +59,11 @@ const ServiceCard = ({ service, index }) => {
 
   const IconComponent = {
     Truck,
-    Package: () => <Truck className="w-8 h-8" />,
+    Package,
     Globe,
-    Warehouse: () => <Truck className="w-8 h-8" />,
-    Zap,
-    Thermometer: () => <Truck className="w-8 h-8" />
+    Users,
+    Warehouse,
+    Zap
   }[service.icon] || Truck;
 
   return (
