@@ -179,11 +179,19 @@ const Footer = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="order-2 flex justify-center md:justify-start items-start"
           >
-            <FooterDropdown 
-              title="Services" 
-              items={servicesItems} 
-              icon={Truck}
-            />
+            <div className="text-white">
+              <h3 className="text-lg font-semibold mb-4 flex items-center">
+                <Truck className="w-5 h-5 mr-2" />
+                Services
+              </h3>
+              <div className="space-y-2">
+                {servicesItems.map((item, index) => (
+                  <div key={index} className="text-sm text-gray-400 hover:text-white">
+                    {item.name}
+                  </div>
+                ))}
+              </div>
+            </div>
           </motion.div>
 
           {/* Discover Dropdown */}
@@ -194,11 +202,19 @@ const Footer = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="order-3 flex justify-center md:justify-start items-start"
           >
-            <FooterDropdown 
-              title="Discover" 
-              items={discoverItems} 
-              icon={Globe}
-            />
+            <div className="text-white">
+              <h3 className="text-lg font-semibold mb-4 flex items-center">
+                <Globe className="w-5 h-5 mr-2" />
+                Discover
+              </h3>
+              <div className="space-y-2">
+                {discoverItems.map((item, index) => (
+                  <div key={index} className="text-sm text-gray-400 hover:text-white">
+                    {item.name}
+                  </div>
+                ))}
+              </div>
+            </div>
           </motion.div>
 
           {/* Resources Dropdown */}
@@ -209,11 +225,19 @@ const Footer = () => {
             transition={{ duration: 0.6, delay: 0.5 }}
             className="order-4 flex justify-center md:justify-start items-start"
           >
-            <FooterDropdown 
-              title="Resources" 
-              items={resourcesItems} 
-              icon={Shield}
-            />
+            <div className="text-white">
+              <h3 className="text-lg font-semibold mb-4 flex items-center">
+                <Shield className="w-5 h-5 mr-2" />
+                Resources
+              </h3>
+              <div className="space-y-2">
+                {resourcesItems.map((item, index) => (
+                  <div key={index} className="text-sm text-gray-400 hover:text-white">
+                    {item.name}
+                  </div>
+                ))}
+              </div>
+            </div>
           </motion.div>
         </div>
 
