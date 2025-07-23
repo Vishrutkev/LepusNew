@@ -476,8 +476,8 @@ const Home = () => {
           >
             <h2 className="text-5xl font-bold text-white mb-6">Ready to Experience Excellence?</h2>
             <p className="text-xl text-blue-100 mb-10 leading-relaxed max-w-3xl mx-auto">
-              Join the constellation of satisfied clients who trust Lepus Group with their most important shipments. 
-              Get your free quote today and discover why we're North America's preferred logistics partner.
+              Join thousands of satisfied clients who trust Transam Carriers with their most important shipments. 
+              Get your free quote today and discover why we're Canada and USA's preferred transportation partner.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Link 
