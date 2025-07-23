@@ -1,15 +1,16 @@
-// Premium Lepus Group Logistics - Professional Mock Data
+// Premium Transam Carriers - Professional Mock Data
 
 export const companyInfo = {
-  name: "Lepus Group Inc",
-  tagline: "Freight and Transportation",
-  subtitle: "North America's Premier Logistics Solutions Provider",
-  description: "Leading transportation, logistics, and supply chain solutions across North America since 2018",
-  phone: "+1 (888) 537-8747", // LEPUS
-  email: "operations@lepusgroup.com",
-  emergencyLine: "+1 (888) 911-LOAD",
-  address: "2500 Logistics Parkway, Suite 200, Chicago, IL 60601",
-  establishedYear: "2018"
+  name: "Transam Carriers Inc",
+  tagline: "Here for the Long Haul",
+  subtitle: "Premium Team Service, proudly delivering across Canada and the United States",
+  description: "A full-service LTL, Truckload, and logistics provider with a strong focus on premium Team Service, delivering across Canada and the United States since 2006",
+  phone: "+1 (416) 907-8101",
+  email: "info@transamcarriers.com",
+  emergencyLine: "+1 (416) 907-8101",
+  address: "205 Doney Crescent, Concord ON L4K 1P6, Canada",
+  establishedYear: "2006",
+  hours: "Monday - Friday 08:00 - 18:00"
 };
 
 export const heroImages = {
