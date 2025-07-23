@@ -280,7 +280,7 @@ const Footer = () => {
               transition={{ duration: 0.6 }}
               className="text-sm text-gray-400"
             >
-              © 2006-2024 {companyInfo.name}. All rights reserved. | Here for the Long Haul.
+              © 2006-2024 {companyInfo.name}. All rights reserved. | Transportation Excellence.
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 20 }}
