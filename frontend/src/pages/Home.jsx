@@ -375,7 +375,7 @@ const Home = () => {
             <h2 className="text-5xl font-bold text-gray-900 mb-6">Performance That Delivers</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Our track record of excellence demonstrates why leading companies across North America 
-              trust Transam Carriers with their most critical shipments and supply chain operations.
+              trust Lepus Group with their most critical shipments and supply chain operations.
             </p>
           </motion.div>
           
