@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { ArrowRight, Star, Truck, Clock, Users, Headphones, Shield, Award, Globe, Zap, CheckCircle, Play, TrendingUp } from 'lucide-react';
+import { ArrowRight, Star, Truck, Clock, Users, Headphones, Shield, Award, Globe, Zap, CheckCircle, Play, TrendingUp, Package, Warehouse, Heart } from 'lucide-react';
 import AnimatedCounter from '../components/AnimatedCounter';
 import { companyInfo, statistics, partners, services, testimonials, awards, heroImages } from '../data/mock';
 
