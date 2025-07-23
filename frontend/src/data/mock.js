@@ -24,53 +24,52 @@ export const heroImages = {
 export const statistics = [
   {
     id: 1,
-    number: 125000,
-    display: "125K+",
-    label: "Loads Delivered Annually",
-    icon: "Truck",
-    suffix: "+"
+    number: 98.5,
+    display: "98.5%",
+    label: "On-Time Service Rate",
+    icon: "Clock",
+    suffix: "%",
+    precision: 1
   },
   {
     id: 2,
-    number: 99.92,
-    display: "99.92%",
-    label: "On-Time Delivery Rate",
-    icon: "Clock",
-    suffix: "%",
-    precision: 2
-  },
-  {
-    id: 3,
-    number: 1850,
-    display: "1,850+",
-    label: "Active Corporate Clients",
-    icon: "Users",
+    number: 18,
+    display: "18+",
+    label: "Years of Experience",
+    icon: "Award",
     suffix: "+"
   },
   {
-    id: 4,
+    id: 3,
     number: 24,
     display: "24/7",
-    label: "Customer Support Coverage",
+    label: "Customer Support",
     icon: "Headphones",
     suffix: "/7"
   },
   {
+    id: 4,
+    number: 2,
+    display: "2 Countries",
+    label: "Service Coverage",
+    icon: "Globe",
+    suffix: " Countries"
+  },
+  {
     id: 5,
-    number: 3200,
-    display: "3,200+",
-    label: "Professional Drivers",
+    number: 100,
+    display: "100%",
+    label: "Committed to Excellence",
     icon: "Shield",
-    suffix: "+"
+    suffix: "%"
   },
   {
     id: 6,
-    number: 0.05,
-    display: "<0.05%",
-    label: "Claims Ratio",
-    icon: "Award",
-    suffix: "%",
-    precision: 2
+    number: 1000,
+    display: "1000+",
+    label: "Satisfied Clients",
+    icon: "Users",
+    suffix: "+"
   }
 ];
 
