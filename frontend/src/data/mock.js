@@ -14,9 +14,11 @@ export const companyInfo = {
 };
 
 export const heroImages = {
-  primary: "https://images.unsplash.com/photo-1592838064575-70ed626d3a0e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwyfHx0cnVja3xlbnwwfHx8fDE3NTMxNDA3MDB8MA&ixlib=rb-4.1.0&q=85",
-  secondary: "https://images.unsplash.com/photo-1501700493788-fa1a4fc9fe62?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwzfHx0cnVja3xlbnwwfHx8fDE3NTMxNDA3MDB8MA&ixlib=rb-4.1.0&q=85",
-  logistics: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHxsb2dpc3RpY3N8ZW58MHx8fHwxNzUzMTQwNzEwfDA&ixlib=rb-4.1.0&q=85"
+  primary: "https://images.unsplash.com/photo-1577075473292-5f62dfae5522?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwxfHx0cnVja3xlbnwwfHx8Ymx1ZXwxNzUzMjM3NjY0fDA&ixlib=rb-4.1.0&q=85",
+  secondary: "https://images.unsplash.com/photo-1585541571714-01aa54eaf7c2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwzfHx0cnVja3xlbnwwfHx8Ymx1ZXwxNzUzMjM3NjY0fDA&ixlib=rb-4.1.0&q=85",
+  logistics: "https://images.unsplash.com/photo-1587149185211-28a2ef4c9a10?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxsb2dpc3RpY3N8ZW58MHx8fGJsdWV8MTc1MzIzNzY3MHww&ixlib=rb-4.1.0&q=85",
+  team: "https://images.unsplash.com/photo-1602750766769-8db8d49cc369?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwyfHx0cnVja3xlbnwwfHx8Ymx1ZXwxNzUzMjM3NjY0fDA&ixlib=rb-4.1.0&q=85",
+  fleet: "https://images.unsplash.com/photo-1566449781267-88f21cc4af19?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwzfHxsb2dpc3RpY3N8ZW58MHx8fGJsdWV8MTc1MzIzNzY3MHww&ixlib=rb-4.1.0&q=85"
 };
 
 export const statistics = [
