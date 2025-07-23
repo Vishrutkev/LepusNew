@@ -151,7 +151,7 @@ const Coverage = () => {
                 transition={{ duration: 1, delay: 0.3 }}
                 className="text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed"
               >
-                Transam Carriers provides point-to-point service between Canada and the USA. 
+                Lepus Group provides point-to-point service between Canada and the USA. 
                 Our business area includes regular routes and irregular lanes where needed.
               </motion.p>
 
