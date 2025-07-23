@@ -255,19 +255,42 @@ const Home = () => {
                   transition={{ duration: 1, delay: 0.8 }}
                   className="flex flex-col sm:flex-row gap-6"
                 >
-                  <Link 
-                    to="/contact" 
-                    className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-10 py-5 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl flex items-center justify-center"
+                  <motion.div
+                    whileHover={{ scale: 1.05, boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)" }}
+                    whileTap={{ scale: 0.95 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 17 }}
                   >
-                    Get Instant Quote <ArrowRight className="w-6 h-6 ml-3" />
-                  </Link>
-                  <Link 
-                    to="/services" 
-                    className="border-2 border-blue-400 text-blue-300 hover:bg-blue-400 hover:text-gray-900 px-10 py-5 rounded-full font-bold text-lg transition-all duration-300 flex items-center justify-center"
+                    <Link 
+                      to="/contact" 
+                      className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-10 py-5 rounded-full font-bold text-lg transition-all duration-300 flex items-center justify-center group relative overflow-hidden"
+                    >
+                      <motion.div
+                        className="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                        whileHover={{ scale: 1.1 }}
+                      />
+                      <span className="relative z-10">Get Instant Quote</span>
+                      <motion.div
+                        animate={{ x: [0, 5, 0] }}
+                        transition={{ duration: 2, repeat: Infinity }}
+                        className="relative z-10 ml-3"
+                      >
+                        <ArrowRight className="w-6 h-6" />
+                      </motion.div>
+                    </Link>
+                  </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 17 }}
                   >
-                    <Play className="w-6 h-6 mr-3" />
-                    Watch Demo
-                  </Link>
+                    <Link 
+                      to="/services" 
+                      className="border-2 border-blue-400 text-blue-300 hover:bg-blue-400 hover:text-gray-900 px-10 py-5 rounded-full font-bold text-lg transition-all duration-300 flex items-center justify-center group"
+                    >
+                      <Play className="w-6 h-6 mr-3 group-hover:animate-pulse" />
+                      Our Services
+                    </Link>
+                  </motion.div>
                 </motion.div>
 
                 {/* Quick Stats */}
