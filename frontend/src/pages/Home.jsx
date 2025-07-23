@@ -358,10 +358,10 @@ const Home = () => {
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <h2 className="text-5xl font-bold text-gray-900 mb-6">Comprehensive Logistics Solutions</h2>
+            <h2 className="text-5xl font-bold text-gray-900 mb-6">Comprehensive Transportation Solutions</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              From full truckload to specialized transportation, we deliver complete logistics solutions 
-              tailored to your business needs with industry-leading technology and expertise.
+              From full truckload to LTL services, we deliver complete transportation solutions 
+              tailored to your business needs with experienced team drivers and premium service.
             </p>
           </motion.div>
           
