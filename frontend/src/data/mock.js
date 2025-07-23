@@ -254,39 +254,40 @@ export const services = [
 ];
 
 export const aboutContent = {
-  vision: "To revolutionize North American logistics by becoming the most trusted, innovative, and reliable transportation partner, setting new standards for excellence in supply chain solutions.",
-  mission: "We deliver exceptional logistics and transportation services through cutting-edge technology, strategic partnerships, and our constellation of experienced professionals, ensuring every shipment reaches its destination with the speed and reliability of the stars.",
+  vision: "To provide quality, cost effective and professional transportation services to our customers safely and reliably, establishing ourselves as the carrier of choice for leading Canadian and American businesses.",
+  mission: "Transam Carriers Inc. was established in 2006 in response to an overwhelming need for a reliable and price-competitive transport company serving North America. With a mission and vision that both owners and employees support, Transam has a clear and definitive path.",
   values: [
     {
-      title: "Swift & Reliable",
-      description: "Like the Lepus constellation that has guided travelers for millennia, we ensure your cargo reaches its destination with unmatched speed, precision, and dependability.",
-      icon: "Zap"
-    },
-    {
-      title: "Safety First", 
-      description: "Safety is our top priority. With industry-leading safety protocols and continuous driver training, we maintain one of the lowest accident rates in North America.",
+      title: "Reliable Delivery",
+      description: "We offer LTL and FTL deliveries throughout Canada and into the Mid-Western and Eastern USA. We always know what's happening to your freight thanks to satellite tracking and state-of-the-art logistics systems.",
       icon: "Shield"
     },
     {
-      title: "Innovation & Technology",
-      description: "We leverage the latest logistics technology, AI-powered route optimization, and real-time tracking to deliver superior service and transparency.",
-      icon: "Cpu"
+      title: "Flexible Options", 
+      description: "We have the expertise and resources to ensure your freight is delivered just in time – with a single driver or a team. Our flexible approach benefits both clients and drivers.",
+      icon: "Zap"
     },
     {
-      title: "Customer-Centric",
-      description: "Every decision we make is focused on exceeding customer expectations, building lasting partnerships, and driving mutual success.",
+      title: "Tailored Service",
+      description: "Catering for diverse business requirements, we offer consolidation, freight forwarding, intermodal shipping and more to provide tailored solutions that regularly exceed expectations.",
       icon: "Heart"
+    },
+    {
+      title: "24/7 Support",
+      description: "With advanced telematics, GPS tracking and electronic dispatch, we ensure your freight stays on the move 24/7, with skilled operators always available to inform you about delivery status.",
+      icon: "Headphones"
     }
   ],
-  story: "Founded in 2018 with a vision to transform North American logistics, Lepus Group takes its name from the swift rabbit constellation that has guided travelers across the night sky for centuries. Just as ancient mariners relied on Lepus for navigation, today's businesses rely on us to navigate the complex landscape of modern logistics. Our founding team, comprised of industry veterans with over 100 combined years of experience, recognized the need for a transportation company that could combine traditional reliability with cutting-edge innovation. Starting with a modest fleet of 25 trucks, we've grown to become one of North America's most trusted logistics providers, handling over 125,000 loads annually while maintaining an industry-leading on-time delivery rate of 99.92%.",
+  story: "Founded in 2006, Transam Carriers Inc. has quickly established itself as the carrier of choice for many leading Canadian and American businesses. Growing from one truck to our current size, Transam's growth is the result of customer satisfaction and our unwavering commitment to providing the very best in transportation services. As a privately held company with an engaged workforce, we have grown over the years focusing on providing excellent transportation and logistics solutions. With a commitment to on-time and damage-free delivery, we are HERE FOR THE LONG HAUL to serve your needs.",
   milestones: [
-    { year: "2018", event: "Company founded with 25 trucks and a vision", achievement: "First 1,000 loads delivered" },
-    { year: "2019", event: "Cross-border expansion into USA market", achievement: "10,000+ loads milestone" },
-    { year: "2020", event: "Technology platform launch and COVID response", achievement: "Essential services recognition" },
-    { year: "2021", event: "Fleet expansion to 500+ trucks", achievement: "50,000+ annual loads" },
-    { year: "2022", event: "Temperature-controlled division launched", achievement: "99%+ on-time delivery achieved" },
-    { year: "2023", event: "AI-powered route optimization implementation", achievement: "100,000+ annual loads" },
-    { year: "2024", event: "Sustainability initiative and carbon reduction program", achievement: "125,000+ annual loads" }
+    { year: "2006", event: "Company founded with vision for reliable transport", achievement: "Established with one truck" },
+    { year: "2008", event: "Expanded fleet and service area", achievement: "Serving Ontario and Midwest USA" },
+    { year: "2010", event: "Added cross-border capabilities", achievement: "Full Canada-USA service" },
+    { year: "2012", event: "Introduced team service", achievement: "Premium team driver program" },
+    { year: "2015", event: "Launched intermodal services", achievement: "Rail and truck integration" },
+    { year: "2018", event: "Opened 70-door cross-dock facility", achievement: "Enhanced consolidation services" },
+    { year: "2020", event: "Digital transformation and technology upgrade", achievement: "Advanced tracking systems" },
+    { year: "2024", event: "Celebrating 18 years of service", achievement: "Here for the Long Haul" }
   ]
 };
 
