@@ -309,12 +309,12 @@ const Home = () => {
                       <TrendingUp className="w-8 h-8 text-green-500 mr-3" />
                       <div>
                         <div className="text-2xl font-bold text-gray-900">
-                          <AnimatedCounter number={0.05} suffix="%" precision={2} duration={3} />
+                          <AnimatedCounter number={2006} suffix="" duration={3} />
                         </div>
-                        <div className="text-gray-600 text-sm font-semibold">Claims Ratio</div>
+                        <div className="text-gray-600 text-sm font-semibold">Founded</div>
                       </div>
                     </div>
-                    <div className="text-green-600 text-sm font-semibold">Industry Leading Safety</div>
+                    <div className="text-green-600 text-sm font-semibold">Here for the Long Haul</div>
                   </motion.div>
                 </div>
               </motion.div>
