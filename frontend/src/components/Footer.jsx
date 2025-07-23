@@ -113,10 +113,9 @@ const Footer = () => {
 
       {/* Main Footer Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12 relative min-h-[200px]">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12 relative">
           {/* Company Info */}
-          <div className="md:col-span-1 order-1 bg-red-500/10 p-4 rounded">
-            <div className="text-white text-sm mb-2">DEBUG: Company Info Column</div>
+          <div className="col-span-1">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -172,77 +171,74 @@ const Footer = () => {
             </motion.div>
           </div>
 
-          {/* Services Dropdown */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="order-2 flex justify-center md:justify-start items-start bg-green-500/10 p-4 rounded"
-          >
-            <div className="text-white">
-              <div className="text-white text-sm mb-2">DEBUG: Services Column</div>
+          {/* Services Section */}
+          <div className="col-span-1">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className="text-white"
+            >
               <h3 className="text-lg font-semibold mb-4 flex items-center">
-                <Truck className="w-5 h-5 mr-2" />
+                <Truck className="w-5 h-5 mr-2 text-blue-400" />
                 Services
               </h3>
               <div className="space-y-2">
                 {servicesItems.map((item, index) => (
-                  <div key={index} className="text-sm text-gray-400 hover:text-white">
+                  <div key={index} className="text-sm text-gray-400 hover:text-white cursor-pointer transition-colors">
                     {item.name}
                   </div>
                 ))}
               </div>
-            </div>
-          </motion.div>
+            </motion.div>
+          </div>
 
-          {/* Discover Dropdown */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="order-3 flex justify-center md:justify-start items-start bg-blue-500/10 p-4 rounded"
-          >
-            <div className="text-white">
-              <div className="text-white text-sm mb-2">DEBUG: Discover Column</div>
+          {/* Discover Section */}
+          <div className="col-span-1">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+              className="text-white"
+            >
               <h3 className="text-lg font-semibold mb-4 flex items-center">
-                <Globe className="w-5 h-5 mr-2" />
+                <Globe className="w-5 h-5 mr-2 text-blue-400" />
                 Discover
               </h3>
               <div className="space-y-2">
                 {discoverItems.map((item, index) => (
-                  <div key={index} className="text-sm text-gray-400 hover:text-white">
+                  <div key={index} className="text-sm text-gray-400 hover:text-white cursor-pointer transition-colors">
                     {item.name}
                   </div>
                 ))}
               </div>
-            </div>
-          </motion.div>
+            </motion.div>
+          </div>
 
-          {/* Resources Dropdown */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.5 }}
-            className="order-4 flex justify-center md:justify-start items-start bg-purple-500/10 p-4 rounded"
-          >
-            <div className="text-white">
-              <div className="text-white text-sm mb-2">DEBUG: Resources Column</div>
+          {/* Resources Section */}
+          <div className="col-span-1">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.5 }}
+              className="text-white"
+            >
               <h3 className="text-lg font-semibold mb-4 flex items-center">
-                <Shield className="w-5 h-5 mr-2" />
+                <Shield className="w-5 h-5 mr-2 text-blue-400" />
                 Resources
               </h3>
               <div className="space-y-2">
                 {resourcesItems.map((item, index) => (
-                  <div key={index} className="text-sm text-gray-400 hover:text-white">
+                  <div key={index} className="text-sm text-gray-400 hover:text-white cursor-pointer transition-colors">
                     {item.name}
                   </div>
                 ))}
               </div>
-            </div>
-          </motion.div>
+            </motion.div>
+          </div>
         </div>
 
         {/* Additional Contact Numbers */}
