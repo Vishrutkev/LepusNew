@@ -76,39 +76,39 @@ export const statistics = [
 export const partners = [
   {
     id: 1,
-    name: "FGF Brands",
-    description: "North America's leading food and beverage manufacturer",
+    name: "Packaging Solutions Inc.",
+    description: "Leading packaging manufacturer serving North America",
     logo: "/api/placeholder/160/80",
-    partnership_duration: "7+ years",
-    category: "Food & Beverage",
-    loads_per_year: "12,000+"
+    partnership_duration: "8+ years",
+    category: "Packaging",
+    loads_per_year: "2,400+"
   },
   {
     id: 2,
-    name: "Saputo Inc.",
-    description: "Global leader in dairy products and ingredients",
+    name: "Retail Distribution Corp.",
+    description: "Major retail goods distributor across Canada and USA",
     logo: "/api/placeholder/160/80", 
-    partnership_duration: "5+ years",
-    category: "Dairy & Food",
-    loads_per_year: "8,500+"
+    partnership_duration: "6+ years",
+    category: "Retail Goods",
+    loads_per_year: "3,200+"
   },
   {
     id: 3,
-    name: "Maple Leaf Foods",
-    description: "Premium protein and prepared foods company",
+    name: "Automotive Parts Ltd.",
+    description: "Automotive parts manufacturer and distributor",
     logo: "/api/placeholder/160/80",
-    partnership_duration: "4+ years",
-    category: "Protein & Foods",
-    loads_per_year: "6,800+"
+    partnership_duration: "5+ years",
+    category: "Automotive",
+    loads_per_year: "1,800+"
   },
   {
     id: 4,
-    name: "McCain Foods",
-    description: "World's largest manufacturer of frozen potato products",
+    name: "Small Parcel Solutions",
+    description: "Consolidation services for small parcel shipments",
     logo: "/api/placeholder/160/80",
-    partnership_duration: "6+ years",
-    category: "Frozen Foods",
-    loads_per_year: "9,200+"
+    partnership_duration: "4+ years",
+    category: "Small Parcel",
+    loads_per_year: "4,100+"
   }
 ];
 
